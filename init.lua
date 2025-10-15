@@ -28,3 +28,11 @@ keymap('i', 'zz', '<Esc>')
 keymap('i', 'яя', '<Esc>') 
 keymap('v', 'zz', '<Esc>')
 keymap('v', 'яя', '<Esc>')
+
+-- Установка табов в 4 пробела
+vim.opt.tabstop = 4       -- Количество пробелов, которыми отображается символ табуляции
+vim.opt.shiftwidth = 4    -- Количество пробелов для автоотступа
+vim.opt.softtabstop = 4   -- Количество пробелов при нажатии клавиши Tab в режиме вставки
+vim.opt.expandtab = true  -- Преобразует табы в пробелы
+vim.opt.autoindent = true -- Сохраняет отступ текущей строки для следующей
+vim.opt.smartindent = true -- Включает "умный" отступ
