@@ -1,6 +1,8 @@
+-- Плагины
 vim.cmd([[
 call plug#begin()
-Plug 'preservim/nerdtree'
+    Plug 'preservim/nerdtree'
+    Plug 'powerman/vim-plugin-ruscmd'
 call plug#end()
 ]])
 
