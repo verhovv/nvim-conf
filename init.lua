@@ -25,9 +25,7 @@ keymap('n', '<leader>sc', ':source ~/.config/nvim/init.lua<CR>')
 
 -- Выход из режимов
 keymap('i', 'zz', '<Esc>')
-keymap('i', 'яя', '<Esc>') 
 keymap('v', 'zz', '<Esc>')
-keymap('v', 'яя', '<Esc>')
 
 -- Табы
 vim.opt.tabstop = 4       -- Количество пробелов, которыми отображается символ табуляции
